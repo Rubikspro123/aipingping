@@ -1,0 +1,80 @@
+body{
+    background-size: cover;
+}
+#header{
+    box-shadow: 10px 10px 10px rgb(8, 79, 105);
+    background-image: linear-gradient(45deg, #0a3a5c, #15d5e6);
+}
+#header{
+    color:white;
+    width: 100%;
+    margin:0px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-family: monospace;
+    align-items: baseline;
+}
+
+#start, #status{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgb(6, 59, 92);
+}
+#status{
+    margin:5px;
+}
+#title{
+    float: left;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.start_button{
+    color: aliceblue;
+    background-color: #0a3a5c00;
+    border: 1px solid white;
+}
+.start_button:hover{
+    color: aliceblue;
+    background-color: #0a3a5c;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom:0;
+    width: 100%;
+    background-color: rgb(17, 83, 107);
+    line-height: 3;
+    text-align: center;  
+}
+canvas{
+    border: 2px solid rgb(23, 74, 114);
+    border-radius: 10px;
+    margin-top: 110px;
+    box-shadow: 10px 10px 10px rgb(6, 59, 92);
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+#instruction_btn{
+    float: right;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 5px;
+    position: sticky;
+    margin-right: 20px;
+    
+}
+#instruction_btn:hover{
+    color: white;
+    background-color: #0a3a5c;
+}
+.restart{
+    background-image: linear-gradient(45deg, #0a5c0a, #15e62d);
+}
+.i{
+    color:white
+}
